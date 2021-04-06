@@ -1,0 +1,146 @@
+.App { 
+    /* background: rgba(11, 124, 189, 0.719); */
+    background-image: linear-gradient(to bottom right, #0f79b6, rgb(19, 56, 107));
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    margin-top: -1.5em;
+    margin-bottom: -1.5em;
+    color: #ffffff;
+}
+
+.header {
+    padding: 1.5em;
+    font-size: 30px;
+}
+
+.row { 
+    display: flex;
+}
+
+.col { 
+    box-shadow: 0 16px 16px 0 rgba(0,0,0, .2), 0 6px 20px 0 rgba(0,0,0,.19);
+    background: rgba(0, 0, 0, 0.589);
+    padding: 10px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+
+select {
+    width: 210px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 0;
+    background-color: #ffffff;
+    border: none;
+    border-bottom: 2px solid #000000;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    padding-right: 38px;
+    margin: 20px;
+    transition: color 0.3s ease, background-color 0.3s ease, border-bottom-color 0.3s ease;
+    
+  }
+  select option {
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 0;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    padding-right: 38px;
+  }
+
+  select:checked{
+    color: rgb(0, 0, 0);
+  }
+
+  input {
+    width: 160px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 0;
+    background-color: #ffffff;
+    border: none;
+    border-bottom: 2px solid #000000;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    padding-right: 38px;
+    transition: color 0.3s ease, background-color 0.3s ease, border-bottom-color 0.3s ease;
+    margin: 20px;
+
+  }
+
+  select:hover,
+  select:focus {
+    color: #000000;
+    background-color: white;
+    border-bottom-color: #DCDCDC;
+  }
+
+  button {
+    background-color:#1c72c3;
+  
+    border: none;
+    color:white;
+  
+    font-size: 15px;
+    font-weight:600;
+  
+    padding: 15px 32px;
+    margin-top: 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 20px;
+  
+    opacity: 0.95;
+    transition: 1s;
+    outline: 0 none;
+  
+  }
+
+  button:hover {
+    text-shadow: 0 0 2em rgba(255,255,255,1);
+    opacity: 1;
+    transition: 1s;
+    outline: 0 none;
+    color:#000000;
+    background-color:#ffffff;
+  }
+
+  md { 
+    font-weight: 600;
+    margin-left: -10px;
+    margin-right: -15px;
+
+  }
+
+  .pathfa {
+    margin-top: -3em;
+    margin-left: 15em;
+    padding-bottom: 30px;
+  }
+
+  .pathdesc {
+    position:absolute;
+    background-color: #fff;
+    color: #000;
+    visibility: hidden;
+    opacity: 0;
+    /* transition effect. not necessary */
+    transition: opacity .2s, visibility .2s;
+    border: 3px solid black;
+    padding: 5px;
+    font-size: 12px;
+  }
+  
+  .pathfa:hover .pathdesc {
+    visibility: visible;
+    opacity: 1;
+  }

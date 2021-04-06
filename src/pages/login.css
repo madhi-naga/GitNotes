@@ -1,0 +1,67 @@
+.home { 
+    display: flex;
+    text-align: center;
+}
+
+.login { 
+    /* display: flex; */
+}
+
+.graphic img { 
+    width: 50em;
+    margin-right: 5em;
+}
+
+.logo img { 
+    margin-top: 3em;
+    width: 10em;
+    margin-bottom: -4em;
+}
+
+.login h1 { 
+    font-size: 100px;
+    margin-bottom: 0.5em;
+}
+
+.login h2 { 
+    font-size: 40px;
+}
+
+.login p { 
+    font-size: 20px;
+    margin-left: 5em;
+    margin-right: 5em;
+    margin-bottom: -1em;
+}
+
+.button {
+    background-color:#0772d6;
+  
+    border: none;
+    color:white;
+  
+    font-size: 20px;
+    font-weight:600;
+  
+    padding: 15px 32px;
+    margin-top: 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 20px;
+  
+    opacity: 0.95;
+    transition: 1s;
+    outline: 0 none;
+  
+  }
+
+  .button:hover {
+    text-shadow: 0 0 2em rgba(255,255,255,1);
+    opacity: 1;
+    transition: 1s;
+    outline: 0 none;
+    color:#ffffff;
+    background-color:#000000;
+  }
+  
