@@ -3,7 +3,8 @@ import editorContext from "./editorContext";
 import axios from 'axios';
 import qs from 'qs';
 
-const urlBackend = 'http://localhost:5000/';
+//const urlBackend = 'http://localhost:5000/';
+const urlBackend = 'https://gitnotes-be.herokuapp.com/';
 var currText = "";
 
 export function GetInput(props) {

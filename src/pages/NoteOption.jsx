@@ -12,7 +12,8 @@ import './option.css'
 
 const queryString = window.location.search;
 const urlParams = new URLSearchParams(queryString);
-const urlBackend = 'http://localhost:5000/';
+//const urlBackend = 'http://localhost:5000/';
+const urlBackend = 'https://gitnotes-be.herokuapp.com/';
 
 export class NoteOption extends Component {
 

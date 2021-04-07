@@ -7,8 +7,8 @@ import { NavBar } from "../components/NavBar";
 import editorContext from "../components/editorContext";
 import Previewer from '../components/Previewer';
 import axios from 'axios';
-const urlBackend = 'http://localhost:5000/';
-
+//const urlBackend = 'http://localhost:5000/';
+const urlBackend = 'https://gitnotes-be.herokuapp.com/';
 
 export class NoteEditor extends Component {
 

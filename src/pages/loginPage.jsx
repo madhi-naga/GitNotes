@@ -4,7 +4,7 @@ import './login.css'
 import logo from '../logo.png'
 import { NavBar} from "../components/NavBar";
 import homepic from './gitnotes-home.png'
-const login = process.env.REACT_APP_PORT_BE || 'http://127.0.0.1:5000/login';
+const login = 'https://gitnotes-be.herokuapp.com/login'; //|| 'http://127.0.0.1:5000/login';
 
 export class LoginPage extends Component {
     render() {
