@@ -217,7 +217,7 @@ export class NoteOption extends Component {
                 value={this.state.path}
                 onChange={this.handlePath} />
               <div className="pathfa"><FaQuestionCircle />
-                <div className="pathdesc"> Specify the path. If in the root folder, leave empty. </div>
+                <div className="pathdesc"> Eg: folder1/folder2. If file is in the root folder, leave empty. </div>
               </div>
             </form>
             {/* <h3>Your path is: {this.state.path}</h3> */}
@@ -285,7 +285,7 @@ export class NoteOption extends Component {
                 value={this.state.path}
                 onChange={this.handlePath} />
               <div className="pathfa"><FaQuestionCircle />
-                <div className="pathdesc"> Specify the path. If in the root folder, leave empty. </div>
+                <div className="pathdesc"> Eg: folder1/folder2. If file is in the root folder, leave empty. </div>
               </div>
             </form>
             {/* <h3>Your path is: {this.state.path}</h3> */}
