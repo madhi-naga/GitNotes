@@ -114,6 +114,18 @@ select {
     background-color:#ffffff;
   }
 
+  button:disabled { 
+    opacity: 0.5;
+  }
+
+  button:disabled:hover { 
+    background-color:#1c72c3;
+    opacity: 0.5;
+    color:white;
+    text-shadow: 0 0 0em rgba(255,255,255,1);
+  }
+
+
   md { 
     font-weight: 600;
     margin-left: -10px;

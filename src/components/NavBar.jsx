@@ -17,7 +17,7 @@ export function NavBar(props) {
     <div className='navbar'>
       <ul>
         <li><b className="active">GitNotes</b></li>
-        <li><a href={`/dashboard?token=${props.token}`}>Main Page</a>  </li>
+        <li><a href={`/dashboard?token=${props.token}`}>Dashboard</a>  </li>
         <li><a href="/">Logout</a></li>
         <li> <a className="mdbutton" onClick={downloadFile}>Download File</a>  </li>
       </ul>

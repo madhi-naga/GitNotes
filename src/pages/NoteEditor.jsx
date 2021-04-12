@@ -16,7 +16,6 @@ export class NoteEditor extends Component {
         super(props);
         this.state = { filecontent: '' }
         this.getFileInfo = this.getFileInfo.bind(this)
-
     }
 
     componentDidMount() {
@@ -36,7 +35,7 @@ export class NoteEditor extends Component {
                     sha: response.data.sha,
                     filecontent: response.data.content
                 });
-                console.log(response);
+                //console.log(response);
                 //alert("Successfully got File");
             })
             .catch(error => this.props.history.push('/'));

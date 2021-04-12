@@ -32,7 +32,7 @@ export function GetInput(props) {
 
     axios.post(`${urlBackend}/setfile/${name}/${reponame}/${filename}`, params)
       .then(function (response) {
-        console.log(response);
+        //console.log(response);
         //alert(`Successfully updated ${filename}`);
         return props.getFileInfo(props.username, props.repoName, props.fileName);
       })
