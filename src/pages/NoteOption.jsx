@@ -93,6 +93,7 @@ export class NoteOption extends Component {
         });
         console.log(response);
       })
+      .catch(err => this.props.history.push('/'));
   }
 
   getRepoData(name, reponame) {
@@ -147,7 +148,9 @@ export class NoteOption extends Component {
         });
         console.log(response);
       })
-      .catch(error => alert(`Failed to receive ${filename}`));
+      .catch(error => 
+        //alert(`Failed to receive ${filename}`)
+        {});
   }
 
   postNewNote(name, reponame, filename, callback) {
@@ -162,9 +165,9 @@ export class NoteOption extends Component {
     axios.post(`${urlBackend}newfile/${name}/${reponame}/${file}`, params)
       .then(function (response) {
         console.log(response);
-        alert(`Successfully created ${filename}`);
       }).then(() => callback())
-      .catch(error => alert(`Failed to create ${filename}`));
+      .catch(error => {});
+        //alert(`Failed to create ${filename}`));
 
   }
 
@@ -187,7 +190,7 @@ export class NoteOption extends Component {
   componentDidMount() {
     if (this.state.token) {
       this.getUserData();
-    }
+    } else this.props.history.push('/');
     this.setState({ filecontent: "" });
     this.getReposData();
   }

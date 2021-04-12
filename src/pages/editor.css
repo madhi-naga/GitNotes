@@ -14,8 +14,10 @@
 
 .editor textarea { 
     width: 48vw;
-    height: 50vh;
+    height: 65vh;
     font-size: 18px;
+    margin-bottom: -2em;
+
 }
 
 .previewer  { 

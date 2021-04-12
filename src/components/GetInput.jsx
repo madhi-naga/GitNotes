@@ -33,10 +33,11 @@ export function GetInput(props) {
     axios.post(`${urlBackend}/setfile/${name}/${reponame}/${filename}`, params)
       .then(function (response) {
         console.log(response);
-        alert(`Successfully updated ${filename}`);
+        //alert(`Successfully updated ${filename}`);
         return props.getFileInfo(props.username, props.repoName, props.fileName);
       })
-      .catch(error => alert(`Failed to update ${filename}`));
+      .catch(error => //alert(`Failed to update ${filename}`));
+      {});
   }
 
   function handleSubmit(e) {

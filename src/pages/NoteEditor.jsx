@@ -39,7 +39,7 @@ export class NoteEditor extends Component {
                 console.log(response);
                 //alert("Successfully got File");
             })
-            .catch(error => alert(`Failed to get ${filename}`));
+            .catch(error => this.props.history.push('/'));
     }
 
     render() {
