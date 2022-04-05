@@ -7,4 +7,4 @@ The app features a React.js frontend and a Python/Flask backend. The backend is 
 Demo of the app can be visited [here](https://gitnotes-app.web.app/). Backend repository can be visited [here](https://github.com/madhi-naga/GitNotes-be). 
 
 ## Preview 
-![preview](https://madhinaga.me/assets/img/portfolio/gitnotes-preview.PNG)
+![preview](https://madhi.dev/assets/img/portfolio/gitnotes-preview.PNG)
